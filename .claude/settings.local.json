@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python.exe -c \"from playwright_stealth import Stealth; s = Stealth\\(\\); print\\([m for m in dir\\(s\\) if 'stealth' in m.lower\\(\\) or 'apply' in m.lower\\(\\) or 'async' in m.lower\\(\\)]\\)\")",
+      "Bash(.venv/Scripts/python.exe main.py ewe79m)"
+    ]
+  }
+}
